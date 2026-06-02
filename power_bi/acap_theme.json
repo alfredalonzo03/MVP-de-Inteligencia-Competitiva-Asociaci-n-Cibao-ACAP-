@@ -1,0 +1,422 @@
+{
+  "name": "ACAP - Asociación Cibao",
+  "dataColors": [
+    "#1E22AA",
+    "#EE2737",
+    "#00A566",
+    "#D9A561",
+    "#263B86",
+    "#001871",
+    "#888B8D",
+    "#EBEBFB"
+  ],
+  "background": "#F6F6FF",
+  "foreground": "#1E22AA",
+  "tableAccent": "#1E22AA",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Lato" }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F6F6FF" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#E2E3F6" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1E22AA" } },
+            "fontSize": 28,
+            "fontFamily": "Lato"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#263B86" } },
+            "fontSize": 11,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#E2E3F6" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "title": [
+          {
+            "color": { "solid": { "color": "#001871" } },
+            "fontSize": 14,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10
+          }
+        ],
+        "title": [
+          {
+            "color": { "solid": { "color": "#001871" } },
+            "fontSize": 14,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10
+          }
+        ],
+        "title": [
+          {
+            "color": { "solid": { "color": "#001871" } },
+            "fontSize": 14,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "areaChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1E22AA" } } }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#888B8D" } },
+            "fontSize": 10
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1E22AA" } },
+            "fontSize": 11,
+            "fontFamily": "Lato"
+          }
+        ],
+        "rows": [
+          {
+            "fontColor": { "solid": { "color": "#263B86" } },
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "fontColorAlt": { "solid": { "color": "#263B86" } },
+            "backColorAlt": { "solid": { "color": "#EBEBFB" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "total": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "matrix": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1E22AA" } },
+            "fontSize": 11,
+            "fontFamily": "Lato"
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#263B86" } },
+            "fontSize": 10,
+            "fontFamily": "Lato"
+          }
+        ],
+        "values": [
+          {
+            "fontColor": { "solid": { "color": "#263B86" } },
+            "backColor": { "solid": { "color": "#FFFFFF" } },
+            "fontColorAlt": { "solid": { "color": "#263B86" } },
+            "backColorAlt": { "solid": { "color": "#EBEBFB" } },
+            "fontSize": 10
+          }
+        ],
+        "total": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#001871" } }
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "data": [
+          {
+            "fontColor": { "solid": { "color": "#1E22AA" } },
+            "fontSize": 11,
+            "fontFamily": "Lato"
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#001871" } },
+            "fontSize": 12,
+            "fontFamily": "Lato"
+          }
+        ],
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": false
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1E22AA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "shape": {
+      "*": {
+        "line": [
+          {
+            "lineColor": { "solid": { "color": "#1E22AA" } }
+          }
+        ]
+      }
+    },
+    "actionButton": {
+      "*": {
+        "text": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 12,
+            "fontFamily": "Lato"
+          }
+        ],
+        "fill": [
+          {
+            "fillColor": { "solid": { "color": "#1E22AA" } }
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#001871" } }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Lato",
+      "color": "#1E22AA"
+    },
+    "title": {
+      "fontSize": 18,
+      "fontFace": "Lato",
+      "color": "#001871"
+    },
+    "header": {
+      "fontSize": 14,
+      "fontFace": "Lato",
+      "color": "#263B86"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Lato",
+      "color": "#888B8D"
+    }
+  },
+  "good": "#00A566",
+  "neutral": "#D9A561",
+  "bad": "#EE2737",
+  "maximum": "#00A566",
+  "center": "#D9A561",
+  "minimum": "#EE2737",
+  "null": "#888B8D"
+}

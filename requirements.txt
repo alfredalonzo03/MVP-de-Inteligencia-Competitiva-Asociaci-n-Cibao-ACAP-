@@ -1,0 +1,32 @@
+# Core data
+pandas==2.2.2
+numpy==1.26.4
+sqlalchemy==2.0.30
+openpyxl==3.1.2
+
+# HTTP / scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# Analytics / ML
+scikit-learn==1.5.0
+scipy==1.13.1
+statsmodels==0.14.2
+
+# Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# Scheduling / automation
+schedule==1.2.2
+
+# Database
+# sqlite3 is built-in — no install needed
+
+# Notebook (VS Code Jupyter extension handles the UI — solo el kernel)
+ipykernel==6.29.4
+
+# Data quality & agency data contracts
+great-expectations>=1.0.0,<2.0.0

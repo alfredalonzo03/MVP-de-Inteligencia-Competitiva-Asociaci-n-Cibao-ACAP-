@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (raw data never goes to Git)
+data/raw/
+data/processed/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI (archivos binarios pesados — compartir por enlace externo)
+*.pbix
+
+# Agency data (generado en runtime)
+data/agency/
+
+# Cache Great Expectations
+gx/
+uncommitted/
+
+# Logs
+*.log
+logs/
